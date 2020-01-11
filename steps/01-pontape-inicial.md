@@ -42,3 +42,22 @@ https://laravel.com/docs/6.x/upgrade
 Ativar Plugins, principalmente Laravel na IDE PHPStorm
 
 Verificar atalhos para facilitar uso da IDE visando produtividade
+
+**Melhorando autocomplete no Laravel**
+
+https://github.com/barryvdh/laravel-ide-helper
+
+https://github.com/barryvdh/laravel-ide-helper/issues/688
+
+```
+composer require --dev barryvdh/laravel-ide-helper
+
+php artisan ide-helper:generate
+
+php artisan ide-helper:models no
+
+composer require --dev doctrine/dbal:~2.3
+
+php artisan ide-helper:meta
+
+```
