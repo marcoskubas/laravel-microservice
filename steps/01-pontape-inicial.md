@@ -61,3 +61,18 @@ composer require --dev doctrine/dbal:~2.3
 php artisan ide-helper:meta
 
 ```
+
+**Dicas sobre Debug no Laravel**
+
+Helper Básico DumpDie: dd(Request::getMethod());
+
+DumpServer
+
+https://github.com/beyondcode/laravel-dump-server
+
+```
+docker-compose exec app bash
+
+php artisan dump-server
+
+```
