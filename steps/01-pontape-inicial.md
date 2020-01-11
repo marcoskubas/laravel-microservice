@@ -36,3 +36,9 @@ composer update
 ```
 
 https://laravel.com/docs/6.x/upgrade
+
+**Configuração do ambiente de desenvolvimento**
+
+Ativar Plugins, principalmente Laravel na IDE PHPStorm
+
+Verificar atalhos para facilitar uso da IDE visando produtividade
