@@ -23,7 +23,13 @@ https://laravel.com/docs/6.x/upgrade#helpers
 
 **Migrando Laravel 5.8 para Laravel 6.0**
 
-Alterar composer.json para: "laravel/framework": "^6.0"
+Alterar composer.json para: 
+
+"laravel/framework": "^6.0"
+
+"php": "^7.2",
+
+"phpunit/phpunit": "^8.0"
 
 ```
 composer update
